@@ -1,7 +1,9 @@
-import React from "react";
-
-const index = () => {
-  return <div>index</div>;
+import React ,{useEffect,useState,useContext} from "react";
+//internal import 
+import {ChatAppContext} from "../Context/ChatAppContext"
+const ChatApp = () => {
+  const {} =useContext(ChatAppContext);
+  return <div>Hey</div>;
 };
 
-export default index;
+export default ChatApp;

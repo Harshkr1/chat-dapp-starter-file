@@ -1,7 +1,11 @@
-import React from "react";
+import React from 'react'
 
 const Friend = () => {
-  return <div>Friend</div>;
-};
+  return (
+    <div>
+      
+    </div>
+  )
+}
 
-export default Friend;
+export default Friend
